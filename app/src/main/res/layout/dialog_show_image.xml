@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="1dp"
+        android:background="@color/color21"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/dialog_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9">
+               <ImageView
+                   android:scaleType="fitCenter"
+                   android:adjustViewBounds="true"
+                   android:minHeight="500dp"
+                   android:minWidth="700dp"
+                   android:id="@+id/image_view"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+               </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="0.1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <include
+                        layout="@layout/button_close"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/button_ok"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

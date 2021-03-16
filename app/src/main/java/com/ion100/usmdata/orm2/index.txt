@@ -1,0 +1,1 @@
+CREATE IF NOT EXISTS product_index ON @table@ (price);

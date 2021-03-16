@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/color21"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:src="@drawable/dialog_head" />
+
+    <TextView
+        android:id="@+id/title_dalog"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="ssssss"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
