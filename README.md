@@ -1,0 +1,2 @@
+# usmdata
+тестирование orm  sqlite 
